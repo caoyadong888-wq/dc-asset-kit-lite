@@ -52,7 +52,7 @@ This lite repo: clone and run the command above. The sample check finishes in se
 
 ### Links
 
-Full kit on Gumroad: GUMROAD_URL
+Full kit on Gumroad: https://caoyadong.gumroad.com/l/hxlops
 
 Pay what you want, $1 or more. Suggested price is $5.
 
@@ -114,7 +114,7 @@ python3 -m unittest discover -s tests
 
 ### 链接
 
-完整包 Gumroad：GUMROAD_URL
+完整包 Gumroad：https://caoyadong.gumroad.com/l/hxlops
 
 愿付多少付多少，1 美元起，建议 5 美元。
 
