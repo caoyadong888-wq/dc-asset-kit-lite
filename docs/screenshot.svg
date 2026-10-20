@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1499" height="698" viewBox="0 0 1499 698" role="img">
+<title>SN mapping check on the synthetic sample</title>
+<desc>Terminal output of sn_mapping_check.py. Seven findings, exit 2.</desc>
+<rect width="1499" height="698" fill="#101610"/>
+<rect x="0" y="0" width="1499" height="36" fill="#1c2a22"/>
+<circle cx="18" cy="18" r="5" fill="#e06a6a"/>
+<circle cx="36" cy="18" r="5" fill="#e6b35a"/>
+<circle cx="54" cy="18" r="5" fill="#3ddc97"/>
+<text x="72" y="23" fill="#c9d7ce" font-family="DejaVu Sans, sans-serif" font-size="13">sn_mapping_check.py — synthetic sample</text>
+<text x="22" y="58" fill="#8ee0b0" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">$ python3 scripts/sn_mapping_check.py \</text>
+<text x="22" y="76" fill="#8ee0b0" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">    --register samples/register/asset_register_aoc.csv \</text>
+<text x="22" y="94" fill="#8ee0b0" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">    samples/register/asset_register_optics.csv \</text>
+<text x="22" y="112" fill="#8ee0b0" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">    samples/register/asset_register_switches.csv \</text>
+<text x="22" y="130" fill="#8ee0b0" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">    --dumps samples/dumps --out out/sn_mapping</text>
+<text x="22" y="148" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13"> </text>
+<text x="22" y="166" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">== SN mapping check ==</text>
+<text x="22" y="184" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">register_rows: 40</text>
+<text x="22" y="202" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">unique_register_sn: 39</text>
+<text x="22" y="220" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">dump_records: 39</text>
+<text x="22" y="238" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">unique_dump_sn: 39</text>
+<text x="22" y="256" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">findings: 7</text>
+<text x="22" y="274" fill="#e6b35a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">exit: 2</text>
+<text x="22" y="292" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13"> </text>
+<text x="22" y="310" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">finding            count</text>
+<text x="22" y="328" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">-----------------  -----</text>
+<text x="22" y="346" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISSING            2</text>
+<text x="22" y="364" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">UNKNOWN            2</text>
+<text x="22" y="382" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">DUPLICATE          1</text>
+<text x="22" y="400" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISMATCH_LOCATION  1</text>
+<text x="22" y="418" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISMATCH_PN        1</text>
+<text x="22" y="436" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13"> </text>
+<text x="22" y="454" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">type               sn              asset_ids            detail</text>
+<text x="22" y="472" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">-----------------  --------------  -------------------  ---------------------------------------------------------------------------------------------------------------------------------</text>
+<text x="22" y="490" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISSING            SYNMISSAOC0002  AOC-MISS             in register, not in dumps; asset_ids=AOC-MISS; host=dc1-rack-a01-srv01 port=NIC4 pn=SMP-AOC-10G-5M</text>
+<text x="22" y="508" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISSING            SYNMISSOPT0001  OPT-MISS             in register, not in dumps; asset_ids=OPT-MISS; host=dc1-rack-a01-sw01 port=Ethernet1/48 pn=SMP-SFP-10G-LR</text>
+<text x="22" y="526" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">UNKNOWN            SYNUNKFRU9002                        seen in dumps, not in register; host=dc1-rack-a01-srv01 pn=SMP-PSU-800 source=dumps/srv01_ipmitool_fru.txt</text>
+<text x="22" y="544" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">UNKNOWN            SYNUNKOPT9001                        seen in dumps, not in register; host=dc1-rack-a01-sw01 port=Ethernet1/40 pn=SMP-SFP28-25G-SR source=dumps/sw01_show_inventory.txt</text>
+<text x="22" y="562" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">DUPLICATE          SYNDUPOPT0042   OPT-0042A|OPT-0042B  sn repeated in register; asset_ids=OPT-0042A|OPT-0042B</text>
+<text x="22" y="580" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISMATCH_LOCATION  SYNLOCOPT0100   OPT-0100             host/port differ; register dc1-rack-a01-sw01 Ethernet1/20; dump dc1-rack-a01-sw01 Ethernet1/28</text>
+<text x="22" y="598" fill="#f2d48a" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">MISMATCH_PN        SYNPNOPT0200    OPT-0200             pn/model differ; register SMP-QSFP28-100G-SR4; dump SMP-QSFP28-100G-CWDM4</text>
+<text x="22" y="616" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13"> </text>
+<text x="22" y="634" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">wrote out/sn_mapping/report.md</text>
+<text x="22" y="652" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">wrote out/sn_mapping/report.csv</text>
+<text x="22" y="670" fill="#d7e2da" font-family="DejaVu Sans Mono, ui-monospace, monospace" font-size="13">wrote out/sn_mapping/report.json</text>
+</svg>

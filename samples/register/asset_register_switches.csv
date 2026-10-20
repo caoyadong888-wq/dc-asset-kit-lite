@@ -1,0 +1,5 @@
+﻿asset_id,sn,model,vendor,hostname,rack,u_position,mgmt_hostname,firmware,status
+SW-0001,SYNSWCH0001,SMP-SW-48Y8C,RidgeSwitch,dc1-rack-a01-sw01,A01,40,dc1-rack-a01-sw01,10.3.2,in_service
+SW-0002,SYNSWSUP0002,SMP-SW-SUP,RidgeSwitch,dc1-rack-a01-sw01,A01,40,dc1-rack-a01-sw01,10.3.2,in_service
+SW-0003,SYNSWLC0003,SMP-SW-LC36,RidgeSwitch,dc1-rack-a01-sw01,A01,39,dc1-rack-a01-sw01,10.3.2,in_service
+SW-0004,SYNSWFAB0004,SMP-SW-FAB,RidgeSwitch,dc1-rack-a01-sw01,A01,38,dc1-rack-a01-sw01,10.3.2,in_service

@@ -1,0 +1,29 @@
+== SN mapping check ==
+register_rows: 40
+unique_register_sn: 39
+dump_records: 39
+unique_dump_sn: 39
+findings: 7
+exit: 2
+
+finding            count
+-----------------  -----
+MISSING            2
+UNKNOWN            2
+DUPLICATE          1
+MISMATCH_LOCATION  1
+MISMATCH_PN        1
+
+type               sn              asset_ids            detail
+-----------------  --------------  -------------------  ---------------------------------------------------------------------------------------------------------------------------------
+MISSING            SYNMISSAOC0002  AOC-MISS             in register, not in dumps; asset_ids=AOC-MISS; host=dc1-rack-a01-srv01 port=NIC4 pn=SMP-AOC-10G-5M
+MISSING            SYNMISSOPT0001  OPT-MISS             in register, not in dumps; asset_ids=OPT-MISS; host=dc1-rack-a01-sw01 port=Ethernet1/48 pn=SMP-SFP-10G-LR
+UNKNOWN            SYNUNKFRU9002                        seen in dumps, not in register; host=dc1-rack-a01-srv01 pn=SMP-PSU-800 source=dumps/srv01_ipmitool_fru.txt
+UNKNOWN            SYNUNKOPT9001                        seen in dumps, not in register; host=dc1-rack-a01-sw01 port=Ethernet1/40 pn=SMP-SFP28-25G-SR source=dumps/sw01_show_inventory.txt
+DUPLICATE          SYNDUPOPT0042   OPT-0042A|OPT-0042B  sn repeated in register; asset_ids=OPT-0042A|OPT-0042B
+MISMATCH_LOCATION  SYNLOCOPT0100   OPT-0100             host/port differ; register dc1-rack-a01-sw01 Ethernet1/20; dump dc1-rack-a01-sw01 Ethernet1/28
+MISMATCH_PN        SYNPNOPT0200    OPT-0200             pn/model differ; register SMP-QSFP28-100G-SR4; dump SMP-QSFP28-100G-CWDM4
+
+wrote out/sn_mapping/report.md
+wrote out/sn_mapping/report.csv
+wrote out/sn_mapping/report.json

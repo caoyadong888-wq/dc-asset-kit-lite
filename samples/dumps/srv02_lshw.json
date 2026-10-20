@@ -1,0 +1,52 @@
+{
+  "id": "system",
+  "class": "system",
+  "product": "Sample Server R2",
+  "vendor": "RidgeSwitch",
+  "configuration": {
+    "hostname": "dc1-rack-a01-srv02"
+  },
+  "children": [
+    {
+      "id": "memory",
+      "class": "memory",
+      "description": "System Memory",
+      "children": [
+        {
+          "id": "bank:0",
+          "class": "memory",
+          "product": "Sample DIMM",
+          "description": "DIMM 32GiB",
+          "size": 34359738368
+        }
+      ]
+    },
+    {
+      "id": "nic1",
+      "class": "network",
+      "product": "SMP-SFP-10G-LR",
+      "vendor": "HarborOptic",
+      "description": "SMP-SFP-10G-LR",
+      "serial": "SYNOPT0017",
+      "port": "NIC1"
+    },
+    {
+      "id": "nic2",
+      "class": "network",
+      "product": "SMP-AOC-10G-5M",
+      "vendor": "HarborOptic",
+      "description": "SMP-AOC-10G-5M",
+      "serial": "SYNAOC0006",
+      "port": "NIC2"
+    },
+    {
+      "id": "nic3",
+      "class": "network",
+      "product": "SMP-AOC-25G-5M",
+      "vendor": "HarborOptic",
+      "description": "SMP-AOC-25G-5M",
+      "serial": "SYNAOC0007",
+      "port": "NIC3"
+    }
+  ]
+}

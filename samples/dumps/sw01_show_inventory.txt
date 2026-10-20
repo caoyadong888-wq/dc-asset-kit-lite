@@ -1,0 +1,99 @@
+! synthetic show inventory
+dc1-rack-a01-sw01# show inventory
+
+NAME: "Chassis", DESCR: "Sample 48-port leaf chassis"
+PID: SMP-SW-48Y8C           , VID: V01 , SN: SYNSWCH0001
+
+NAME: "Supervisor Module", DESCR: "Sample supervisor"
+PID: SMP-SW-SUP             , VID: V01 , SN: SYNSWSUP0002
+
+NAME: "Linecard Slot 2", DESCR: "Sample 36-port line card"
+PID: SMP-SW-LC36            , VID: V01 , SN: SYNSWLC0003
+
+NAME: "Fabric Module 1", DESCR: "Sample fabric module"
+PID: SMP-SW-FAB             , VID: V01 , SN: SYNSWFAB0004
+
+NAME: "Transceiver Ethernet1/1", DESCR: "Sample optic SMP-SFP-1G-SX"
+PID: SMP-SFP-1G-SX          , VID: V01 , SN: synopt0001
+
+NAME: "Transceiver Ethernet1/2", DESCR: "Sample optic SMP-SFP-1G-LX"
+PID: SMP-SFP-1G-LX          , VID: V01 , SN: SYNOPT0002
+
+NAME: "Transceiver Ethernet1/3", DESCR: "Sample optic SMP-SFP-10G-SR"
+PID: SMP-SFP-10G-SR         , VID: V01 , SN: SYNOPT0003
+
+NAME: "Transceiver Ethernet1/4", DESCR: "Sample optic SMP-SFP-10G-LR"
+PID: SMP-SFP-10G-LR         , VID: V01 , SN: SYNOPT0004
+
+NAME: "Transceiver Ethernet1/5", DESCR: "Sample optic SMP-SFP28-25G-SR"
+PID: SMP-SFP28-25G-SR       , VID: V01 , SN: SYNOPT0005
+
+NAME: "Transceiver Ethernet1/6", DESCR: "Sample optic SMP-SFP28-25G-LR"
+PID: SMP-SFP28-25G-LR       , VID: V01 , SN: SYNOPT0006
+
+NAME: "Transceiver Ethernet1/7", DESCR: "Sample optic SMP-QSFP28-100G-SR4"
+PID: SMP-QSFP28-100G-SR4    , VID: V01 , SN: SYNOPT0007
+
+NAME: "Transceiver Ethernet1/8", DESCR: "Sample optic SMP-QSFP28-100G-LR4"
+PID: SMP-QSFP28-100G-LR4    , VID: V01 , SN: SYNOPT0008
+
+NAME: "Transceiver Ethernet1/9", DESCR: "Sample optic SMP-QSFP28-100G-CWDM4"
+PID: SMP-QSFP28-100G-CWDM4  , VID: V01 , SN: SYNOPT0009
+
+NAME: "Transceiver Ethernet1/10", DESCR: "Sample optic SMP-QSFPDD-400G-SR8"
+PID: SMP-QSFPDD-400G-SR8    , VID: V01 , SN: SYNOPT0010
+
+NAME: "Transceiver Ethernet1/11", DESCR: "Sample optic SMP-QSFPDD-400G-FR4"
+PID: SMP-QSFPDD-400G-FR4    , VID: V01 , SN: SYNOPT0011
+
+NAME: "Transceiver Ethernet1/12", DESCR: "Sample optic SMP-SFP-10G-SR"
+PID: SMP-SFP-10G-SR         , VID: V01 , SN: SYNOPT0012
+
+NAME: "Transceiver Ethernet1/13", DESCR: "Sample optic SMP-SFP28-25G-SR"
+PID: SMP-SFP28-25G-SR       , VID: V01 , SN: SYNOPT0013
+
+NAME: "Transceiver Ethernet1/14", DESCR: "Sample optic SMP-QSFP28-100G-SR4"
+PID: SMP-QSFP28-100G-SR4    , VID: V01 , SN: SYNOPT0014
+
+NAME: "Transceiver Ethernet1/22", DESCR: "Sample optic SMP-SFP-10G-SR"
+PID: SMP-SFP-10G-SR         , VID: V01 , SN: SYNDUPOPT0042
+
+NAME: "Transceiver Ethernet1/28", DESCR: "Sample optic SMP-QSFP28-100G-LR4"
+PID: SMP-QSFP28-100G-LR4    , VID: V01 , SN: SYNLOCOPT0100
+
+NAME: "Transceiver Ethernet1/21", DESCR: "Sample optic SMP-QSFP28-100G-CWDM4"
+PID: SMP-QSFP28-100G-CWDM4  , VID: V01 , SN: SYNPNOPT0200
+
+NAME: "Transceiver Ethernet1/15", DESCR: "Sample AOC SMP-AOC-10G-3M"
+PID: SMP-AOC-10G-3M         , VID: V01 , SN: SYNAOC0001
+
+NAME: "Transceiver Ethernet1/16", DESCR: "Sample AOC SMP-AOC-25G-3M"
+PID: SMP-AOC-25G-3M         , VID: V01 , SN: SYNAOC0002
+
+NAME: "Transceiver Ethernet1/17", DESCR: "Sample AOC SMP-AOC-100G-5M"
+PID: SMP-AOC-100G-5M        , VID: V01 , SN: SYNAOC0003
+
+NAME: "Transceiver Ethernet1/18", DESCR: "Sample AOC SMP-AOC-100G-10M"
+PID: SMP-AOC-100G-10M       , VID: V01 , SN: SYNAOC0004
+
+NAME: "Transceiver Ethernet1/19", DESCR: "Sample AOC SMP-AOC-400G-3M"
+PID: SMP-AOC-400G-3M        , VID: V01 , SN: SYNAOC0005
+
+NAME: "Transceiver Ethernet1/23", DESCR: "Sample AOC SMP-AOC-10G-1M"
+PID: SMP-AOC-10G-1M         , VID: V01 , SN: SYNAOC0008
+
+NAME: "Transceiver Ethernet1/24", DESCR: "Sample AOC SMP-AOC-25G-1M"
+PID: SMP-AOC-25G-1M         , VID: V01 , SN: SYNAOC0009
+
+NAME: "Transceiver Ethernet1/25", DESCR: "Sample AOC SMP-AOC-100G-3M"
+PID: SMP-AOC-100G-3M        , VID: V01 , SN: SYNAOC0010
+
+NAME: "Transceiver Ethernet1/26", DESCR: "Sample AOC SMP-AOC-10G-7M"
+PID: SMP-AOC-10G-7M         , VID: V01 , SN: SYNAOC0011
+
+NAME: "Transceiver Ethernet1/27", DESCR: "Sample AOC SMP-AOC-25G-7M"
+PID: SMP-AOC-25G-7M         , VID: V01 , SN: SYNAOC0012
+
+NAME: "Transceiver Ethernet1/40", DESCR: "Sample optic SMP-SFP28-25G-SR"
+PID: SMP-SFP28-25G-SR       , VID: V01 , SN: SYNUNKOPT9001
+

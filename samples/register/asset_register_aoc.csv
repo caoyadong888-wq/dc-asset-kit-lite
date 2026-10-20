@@ -1,0 +1,15 @@
+﻿asset_id,sn,pn,vendor,type,speed,wavelength,reach,host,port,rack,status,install_date
+AOC-0001,SYNAOC0001,SMP-AOC-10G-3M,NorthCable,SFP+,10G,n/a,3m,dc1-rack-a01-sw01,Ethernet1/15,A01,in_service,2026-05-19
+AOC-0002,SYNAOC0002,SMP-AOC-25G-3M,NorthCable,SFP28,25G,n/a,3m,dc1-rack-a01-sw01,Ethernet1/16,A01,in_service,2026-05-22
+AOC-0003,SYNAOC0003,SMP-AOC-100G-5M,NorthCable,QSFP28,100G,n/a,5m,dc1-rack-a01-sw01,Ethernet1/17,A01,in_service,2026-05-25
+AOC-0004,SYNAOC0004,SMP-AOC-100G-10M,NorthCable,QSFP28,100G,n/a,10m,dc1-rack-a01-sw01,Ethernet1/18,A01,in_service,2026-05-28
+AOC-0005,SYNAOC0005,SMP-AOC-400G-3M,NorthCable,QSFP-DD,400G,n/a,3m,dc1-rack-a01-sw01,Ethernet1/19,A01,in_service,2026-05-31
+AOC-0006,SYNAOC0006,SMP-AOC-10G-5M,NorthCable,SFP+,10G,n/a,5m,dc1-rack-a01-srv02,NIC2,A01,in_service,2026-06-03
+AOC-0007,SYNAOC0007,SMP-AOC-25G-5M,NorthCable,SFP28,25G,n/a,5m,dc1-rack-a01-srv02,NIC3,A01,in_service,2026-06-06
+AOC-0008,SYNAOC0008,SMP-AOC-10G-1M,NorthCable,SFP+,10G,n/a,1m,dc1-rack-a01-sw01,Ethernet1/23,A01,spare,2026-06-09
+AOC-0009,SYNAOC0009,SMP-AOC-25G-1M,NorthCable,SFP28,25G,n/a,1m,dc1-rack-a01-sw01,Ethernet1/24,A01,in_service,2026-06-12
+AOC-0010,SYNAOC0010,SMP-AOC-100G-3M,NorthCable,QSFP28,100G,n/a,3m,dc1-rack-a01-sw01,Ethernet1/25,A01,in_service,2026-06-15
+AOC-0011,SYNAOC0011,SMP-AOC-10G-7M,NorthCable,SFP+,10G,n/a,7m,dc1-rack-a01-sw01,Ethernet1/26,A01,in_service,2026-06-18
+AOC-0012,SYNAOC0012,SMP-AOC-25G-7M,NorthCable,SFP28,25G,n/a,7m,dc1-rack-a01-sw01,Ethernet1/27,A01,in_service,2026-06-21
+AOC-0013,SYNAOC0013,SMP-AOC-100G-15M,NorthCable,QSFP28,100G,n/a,15m,dc1-rack-a01-srv01,NIC3,A01,in_service,2026-06-24
+AOC-MISS,SYNMISSAOC0002,SMP-AOC-10G-5M,NorthCable,SFP+,10G,n/a,5m,dc1-rack-a01-srv01,NIC4,A01,in_service,2026-06-27

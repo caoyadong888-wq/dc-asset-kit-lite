@@ -1,0 +1,26 @@
+# host: dc1-rack-a01-srv01
+# command: ipmitool fru print
+
+FRU Device Description : NIC1 (ID 1)
+ Product Manufacturer  : SampleOEM
+ Product Name          : SMP-SFP-10G-SR
+ Product Part Number   : SMP-SFP-10G-SR
+ Product Serial        : SYNOPT0015
+
+FRU Device Description : NIC2 (ID 2)
+ Product Manufacturer  : SampleOEM
+ Product Name          : SMP-SFP28-25G-LR
+ Product Part Number   : SMP-SFP28-25G-LR
+ Product Serial        : SYNOPT0016
+
+FRU Device Description : NIC3 (ID 3)
+ Product Manufacturer  : SampleOEM
+ Product Name          : SMP-AOC-100G-15M
+ Product Part Number   : SMP-AOC-100G-15M
+ Product Serial        : SYNAOC0013
+
+FRU Device Description : PSU1 (ID 4)
+ Product Manufacturer  : SampleOEM
+ Product Name          : SMP-PSU-800
+ Product Part Number   : SMP-PSU-800
+ Product Serial        : SYNUNKFRU9002
